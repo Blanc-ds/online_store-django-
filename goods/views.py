@@ -2,22 +2,23 @@ from django.shortcuts import render
 
 from goods.models import Products
 
+
 # Create your views here.
 def catalog(request):
     goods = Products.objects.all()
 
     context = {
-        'title': 'Catalog',
-        'goods': goods,
+        "title": "Catalog",
+        "goods": goods,
     }
-    return render(request, 'goods/catalog.html', context=context)
+    return render(request, "goods/catalog.html", context=context)
 
-def product(request):
-    # context = {
-    #     'title': 'Home - About us',
-    #     'content': 'The page about us',
-    #     'text_on_page': 'Some usefull information about us',
-    # }
 
-    return render(request, 'goods/product.html')
+def product(request, product_slug):
+    product = Products.objects.get(slug=product_slug)
 
+    context = {
+        "product": product,
+    }
+
+    return render(request, "goods/product.html", context=context)
