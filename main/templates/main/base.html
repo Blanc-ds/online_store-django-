@@ -69,9 +69,9 @@
                             </ul>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success text-white" type="submit">Поиск</button>
+                    <form class="d-flex" role="search" action={% url "catalog:search" %} method="get">
+                        <input class="form-control me-2" type="search" name='q' placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success text-white" type="submit">Find</button>
                     </form>
                 </div>
             </div>
@@ -85,7 +85,7 @@
                 <div class="dropdown mb-2">
                     <button class="btn btn-secondary dropdown-toggle btn-dark" type="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
-                        Каталог
+                        Area of Applications
                         <img class="mx-1" src={% static "deps/icons/grid-fill.svg" %} alt="Catalog Icon" width="16"
                             height="16">
                     </button>
