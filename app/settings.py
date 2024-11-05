@@ -145,3 +145,6 @@ INTERNAL_IPS = [
     "127.0.0.1",
     # ...
 ]
+
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+AUTH_USER_MODEL = 'users.User'
