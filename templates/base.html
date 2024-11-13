@@ -38,36 +38,43 @@
                         <li class="nav-item dropdown ">
                             <a class="nav-link dropdown-toggle text-white" href="#" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
-                                Информация
+                                Information
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item  text-white" href="{% url 'main:payment' %}">Доставка и оплата</a></li>
-                                <li><a class="dropdown-item  text-white" href="{% url 'main:contacts' %}">Контактная информация</a></li>
-                                <li><a class="dropdown-item  text-white" href="{% url 'main:about' %}">Про нас</a></li>
+                                <li><a class="dropdown-item  text-white" href="{% url 'main:payment' %}">Payment and delivery</a></li>
+                                <li><a class="dropdown-item  text-white" href="{% url 'main:contacts' %}">Contact information</a></li>
+                                <li><a class="dropdown-item  text-white" href="{% url 'main:about' %}">About us</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link  text-white" href="carts/cart.html">Корзина</a>
+                            <a class="nav-link  text-white" href="carts/cart.html">Bag</a>
                         </li>
-                        <li class="nav-item">
+                        {% if not user.is_authenticated %}<li class="nav-item">
                             <a class="nav-link  text-white" href="{% url "user:login" %}">Log in</a>
                         </li>
-                        <li class="nav-item dropdown ">
-                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                My profile
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item  text-white" href="carts/cart.html">Корзина</a></li>
-                                <li><a class="dropdown-item  text-white" href="{% url "user:profile" %}">Личный кабинет</a>
-                                </li>
-                                <li><a class="dropdown-item  text-white" href="{% url "admin:index" %}">Админ панель</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item  text-white" href="{% url "user:logout" %}">Выйти</a></li>
-                            </ul>
-                        </li>
+                        {% else %}
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    My profile
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item  text-white" href="carts/cart.html">Bag</a></li>
+                                    <li><a class="dropdown-item  text-white" href="{% url "user:profile" %}">Personal account</a>
+                                    </li>
+                                    {% if user.is_admin or user.is_staff %}
+                                        <li><a class="dropdown-item  text-white" href="{% url "admin:index" %}">Admin panel</a></li>
+                                    {% endif %}
+                                    
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item  text-white" href="{% url "user:logout" %}">Log out</a></li>
+                                </ul>
+                            </li>
+                        {% endif %}
+                        
+                        
                     </ul>
                     <form class="d-flex" role="search" action={% url "catalog:search" %} method="get">
                         <input class="form-control me-2" type="search" name='q' placeholder="Search" aria-label="Search">
@@ -117,12 +124,12 @@
                                     aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <h3 class="text-center mb-4">Корзина</h3>
+                                <h3 class="text-center mb-4">Bag</h3>
                                 <div class="container" id="cart-items-container">
                                     <!-- Разметка корзины -->
                                     <div class="card mb-3 text-bg-light shadow-lg">
                                         <div class="card-header">
-                                            <h5 class="card-title">Товар</h5>
+                                            <h5 class="card-title">Goods</h5>
                                         </div>
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item">
@@ -157,14 +164,14 @@
                                     </div>
                                     <div class="card mb-3 shadow-lg">
                                         <div class="card-footer">
-                                            <p class="float-left">Итого <strong>1</strong> товар(а) на сумму</p>
+                                            <p class="float-left">A Total of <strong>1</strong> item(-s) for the worth</p>
                                             <h4 class="float-left"><strong>100.00 $</strong></h4>
                                         </div>
                                     </div>
                                     <!-- Закончилась разметка корзины -->
                                 </div>
                                 <a class="btn btn-dark" href="orders/create_order.html">
-                                    Оформить заказ
+                                    place an order
                                 </a>
                             </div>
                         </div>
