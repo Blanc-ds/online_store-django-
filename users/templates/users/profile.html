@@ -10,6 +10,9 @@
                     <h3 class="text-center mb-4">User's profile</h3>
                     <form action="{% url "users:profile" %}" method="post" enctype="multipart/form-data">
                         {% csrf_token %}
+                        {% if request.get.next %}
+                            <input type="hidden" name="next" value={{ request.get.next }}>
+                        {% endif %}
                         <div class="row">
                             <div class="col-md-12 mb-3 text-center">    
                                 {% if user.image %}
