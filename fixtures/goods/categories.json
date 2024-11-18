@@ -1,0 +1,146 @@
+[
+    {
+        "model": "goods.categories",
+        "pk": 1,
+        "fields": {
+            "name": "Beauty",
+            "slug": "beauty"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 2,
+        "fields": {
+            "name": "Brain & Energy Metabolism",
+            "slug": "brain-energy-metabolism"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 3,
+        "fields": {
+            "name": "Children's Health",
+            "slug": "childrens-health"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 4,
+        "fields": {
+            "name": "Desire to have children",
+            "slug": "desire-to-have-children"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 5,
+        "fields": {
+            "name": "Eye Health",
+            "slug": "eye-health"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 6,
+        "fields": {
+            "name": "Gut Health",
+            "slug": "gut-health"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 7,
+        "fields": {
+            "name": "Heart",
+            "slug": "heart"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 8,
+        "fields": {
+            "name": "Immune System",
+            "slug": "immune-system"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 9,
+        "fields": {
+            "name": "Locomotor System",
+            "slug": "locomotor-system"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 10,
+        "fields": {
+            "name": "Men's Health",
+            "slug": "mens-health"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 11,
+        "fields": {
+            "name": "Menopause",
+            "slug": "menopause"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 12,
+        "fields": {
+            "name": "Sleep",
+            "slug": "sleep"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 13,
+        "fields": {
+            "name": "Sport",
+            "slug": "sport"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 14,
+        "fields": {
+            "name": "Women's Health",
+            "slug": "womens-health"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 15,
+        "fields": {
+            "name": "Vegan nutrition",
+            "slug": "vegan-nutrition"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 16,
+        "fields": {
+            "name": "Tiredness & Exhaustion",
+            "slug": "tiredness-exhaustion"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 17,
+        "fields": {
+            "name": "Other",
+            "slug": "other"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 18,
+        "fields": {
+            "name": "All products",
+            "slug": "all-products"
+        }
+    }
+]

@@ -1,0 +1,344 @@
+[
+    {
+        "model": "goods.products",
+        "pk": 1,
+        "fields": {
+            "name": "Orthomol Immun",
+            "slug": "orthomol-immun",
+            "description": "The vitamin complex Orthomol Immun is designed to strengthen and maintain the immune system at an appropriate level, regardless of weather conditions, dietary habits, or stress. Its components stimulate and normalize the function of all parts of the body's immune system—from the bone marrow and lymph nodes to leukocytes and phagocytes.\r\n\r\nThe main components of Orthomol Immun are:\r\n\r\nZinc, essential for cell division, and vitamin A, which plays a crucial role in cell specialization;\r\nVitamins C, E, and B2, which, along with zinc, copper, selenium, and manganese compounds, act as antioxidants, protecting cells from the effects of free radicals formed during immune reactions;\r\nBiotin and niacin, necessary for maintaining mucous membranes in a healthy state, which serve as a barrier against all types of microorganisms;\r\nBioflavonoids, as natural antioxidants, enhance the effect of vitamin C and have antiviral and antimicrobial properties.\r\nOrthomol vitamins are produced in accordance with international quality standards:\r\n\r\nISO 22000\r\nHACCP\r\nGMP\r\nIFS\r\nBRC\r\n\r\nThey are free from GMOs, lactose, gluten, and titanium dioxide.  \r\nConsult your doctor before use.",
+            "image": "goods_images/1477213838_eOz4bm0.jpg",
+            "price": "100.00",
+            "discount": 20,
+            "quantity": 20,
+            "model": "Immun",
+            "brand": "Orthomol pharmazeutische Vertriebs GmbH",
+            "release_form": "tc",
+            "course_duration": 30,
+            "expiration_date": "2024-10-11T10:10:08Z",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 2,
+        "fields": {
+            "name": "Orthomol Immun Pro",
+            "slug": "orthomol-immun-pro",
+            "description": "The Orthomol Immun Pro vitamin complex is designed for the accelerated recovery of the immune system after antibiotic use, radiation or chemotherapy courses, as well as for normalizing immune function in cases of recurring allergic attacks. The components of the complex provide powerful antioxidant protection, have an oncoprotective effect, stop the development of inflammation, and stimulate regenerative processes.\r\n\r\nThe main components of Orthomol Immun Pro are:\r\n\r\nProbiotics: microorganisms and substances of microbial origin, as well as biologically active supplements containing live microcultures;\r\nPrebiotics: indigestible substrates (proteins, lipids, polysaccharides, etc.) that stimulate the natural microflora of the gastrointestinal tract;\r\nVitamins C, E, and B2, which, along with compounds of zinc, copper, selenium, and manganese, act as antioxidants, protecting cells from the effects of free radicals formed during immune reactions;\r\nVitamin A, biotin, and niacin, essential for maintaining the mucous membranes, primarily in the intestines, in a healthy state.\r\nNote:\r\n\r\nThe Orthomol Immun Pro vitamin complex is contraindicated for individuals with conditions where iodine supplements are prohibited, those with carbohydrate metabolism disorders, individuals with intolerance to any components, and pregnant or breastfeeding women.\r\nIndividuals with thyroid disorders or those taking iodine supplements should consult an endocrinologist before taking Orthomol Immun Pro.\r\n\r\nOrthomol vitamins are produced in accordance with international quality standards:\r\n\r\nISO 22000\r\nHACCP\r\nGMP\r\nIFS\r\nBRC\r\nCertified according to ISO 22000\r\nThey are free from GMOs, lactose, gluten, and titanium dioxide.\r\nConsult your doctor before use.",
+            "image": "goods_images/orthomol-immun-pro.png",
+            "price": "180.00",
+            "discount": 0,
+            "quantity": 7,
+            "model": "Immun Pro",
+            "brand": "Orthomol pharmazeutische Vertriebs GmbH",
+            "release_form": "pow",
+            "course_duration": 30,
+            "expiration_date": "2024-10-11T10:13:40Z",
+            "category": 8
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 3,
+        "fields": {
+            "name": "Orthomol Fertil Plus",
+            "slug": "orthomol-fertil-plus",
+            "description": "The Orthomol Fertil Plus vitamin complex is designed to improve sperm quality and increase the likelihood of conception. Its components stimulate sperm production and promote increased motility and viability of sperm cells.\r\n\r\nThe main components of Orthomol Fertil Plus are:\r\n\r\n- Selenium, which ensures normal spermatogenesis;\r\n- Folic acid, which significantly reduces the risk of sperm with chromosomal defects;\r\n- Zinc, which supports normal testosterone levels in the blood;\r\n- Vitamin B12, which, together with zinc compounds, plays an important role in the cell division process;\r\n- Vitamins C and E, as well as zinc, copper, and selenium compounds, which act as antioxidants, protecting cells from the effects of free radicals;\r\n- Omega-3 fatty acids, essential for forming healthy cell membranes.\r\n\r\nIt is important to remember that Orthomol Fertil Plus is a dietary supplement and cannot replace medications and/or procedures prescribed by a healthcare professional.\r\n\r\n**Note:**\r\n\r\nThe Orthomol Fertil Plus vitamin complex is contraindicated for individuals with intolerance to any of its components.  \r\nOrthomol vitamins are produced in accordance with international quality standards:\r\n\r\n- ISO 22000\r\n- HACCP\r\n- GMP\r\n- IFS\r\n- BRC\r\n- Certified according to ISO 22000\r\n\r\nThey are free from GMOs, lactose, gluten, and titanium dioxide.  \r\nConsult your doctor before use.",
+            "image": "goods_images/orthomol-fertil-main.png",
+            "price": "379.00",
+            "discount": 12,
+            "quantity": 22,
+            "model": "Fertil Plus",
+            "brand": "Orthomol pharmazeutische Vertriebs GmbH",
+            "release_form": "tc",
+            "course_duration": 30,
+            "expiration_date": "2024-10-11T10:18:45Z",
+            "category": 4
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 4,
+        "fields": {
+            "name": "Orthomol Natal pre",
+            "slug": "orthomol-natal-pre",
+            "description": "Orthomol Natal Pre is a vitamin complex designed to prepare the body for pregnancy and increase the chances of conception. The vitamins and trace elements in the complex optimize metabolic processes in a woman's body, promote conception, and significantly reduce the risk of defects and abnormalities during fetal development.\r\n\r\nThe main components of the complex are:\r\n\r\n- Vitamin B6, vitamin B12, vitamin D, folic acid, and zinc, which stimulate cell division processes and support immune health;\r\n- Coenzyme Q10, which enhances cellular respiration and energy production.\r\n\r\nPlease note that Orthomol Natal Pre is a dietary supplement and cannot replace a balanced diet and a healthy lifestyle.\r\n\r\nIt differs from the \"regular\" Natal formula by having a higher content of folic acid, essential for the proper formation of the fetal nervous system. The folic acid is provided in the form of Quatrefolic®—an active form that ensures its maximum absorption by the body.\r\n\r\nOrthomol vitamins are produced in accordance with international quality standards:\r\n\r\n- ISO 22000\r\n- HACCP\r\n- GMP\r\n- IFS\r\n- BRC\r\n- Certified according to ISO 22000\r\n\r\nThey are free from GMOs, lactose, gluten, and titanium dioxide.  \r\nConsult your doctor before use.",
+            "image": "goods_images/4094015812.png",
+            "price": "300.00",
+            "discount": 40,
+            "quantity": 4,
+            "model": "Natal pre",
+            "brand": "Orthomol pharmazeutische Vertriebs GmbH",
+            "release_form": "caps",
+            "course_duration": 30,
+            "expiration_date": "2024-10-11T10:21:54Z",
+            "category": 4
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 5,
+        "fields": {
+            "name": "Orthomol Natal",
+            "slug": "orthomol-natal",
+            "description": "The Orthomol Natal vitamin complex is designed to increase the chances of conception, ensure the normal development of the baby before and after birth, and maintain the mother's health during pregnancy and breastfeeding. The substances in the complex support the child’s development and normalize metabolic processes in the mother’s body.\r\n\r\nThe main components of the Orthomol complex for pregnant and breastfeeding women are:\r\n\r\n- Docosahexaenoic acid (DHA) and omega-3 fatty acids, essential for the normal development of the brain and eyes of the fetus and breastfed infant;\r\n- Iodine and iron compounds, which support the cognitive development of the child;\r\n- Vitamin D, which plays a crucial role in bone formation and immune system development;\r\n- Probiotics containing lactobacilli and bifidobacteria, necessary for normal digestion in the mother.\r\n\r\n**Note:**\r\n\r\nThe Orthomol Natal vitamin complex is contraindicated for individuals with an intolerance to any components and those with carbohydrate metabolism disorders.  \r\nIndividuals with thyroid disorders or those taking iodine supplements should consult an endocrinologist before taking Orthomol Natal.\r\n\r\nOrthomol vitamins are produced in accordance with international quality standards:\r\n\r\n- ISO 22000\r\n- HACCP\r\n- GMP\r\n- IFS\r\n- BRC\r\n- Certified according to ISO 22000\r\n\r\nThey are free from GMOs, lactose, gluten, and titanium dioxide.  \r\nConsult your doctor before use.",
+            "image": "goods_images/1473998683.jpg",
+            "price": "246.00",
+            "discount": 5,
+            "quantity": 18,
+            "model": "Natal",
+            "brand": "Orthomol pharmazeutische Vertriebs GmbH",
+            "release_form": "tc",
+            "course_duration": 30,
+            "expiration_date": "2024-10-11T10:30:15Z",
+            "category": 4
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 6,
+        "fields": {
+            "name": "Orthomol Osteo",
+            "slug": "orthomol-osteo",
+            "description": "The Orthomol Osteo vitamin complex is designed to prevent osteoporosis and support bone health at any age. Its components stimulate and regulate bone metabolism, ensuring the constant renewal of bone tissue and guaranteeing high bone strength.\r\n\r\nThe main components of the Orthomol Osteo complex are:\r\n\r\n- Calcium compounds, which serve as the primary \"building material\" for bone formation;\r\n- Vitamin D, necessary for the successful absorption of calcium by the body;\r\n- Vitamin K, along with zinc and manganese compounds, which ensure normal bone metabolism;\r\n- Vitamin C, which stimulates collagen formation, essential for connecting bones and ligaments.\r\n\r\n**Note:**\r\n\r\nThe Orthomol Osteo vitamin complex is contraindicated for individuals with carbohydrate metabolism disorders, intolerance to any components, and pregnant or breastfeeding women.  \r\nOrthomol vitamins are produced in accordance with international quality standards:\r\n\r\n- ISO 22000\r\n- HACCP\r\n- GMP\r\n- IFS\r\n- BRC\r\n- Certified according to ISO 22000\r\n\r\nThey are free from GMOs, lactose, gluten, and titanium dioxide.  \r\nConsult your doctor before use.",
+            "image": "goods_images/orthomol-osteo-main.png",
+            "price": "405.00",
+            "discount": 72,
+            "quantity": 40,
+            "model": "Osteo",
+            "brand": "Orthomol pharmazeutische Vertriebs GmbH",
+            "release_form": "pow",
+            "course_duration": 30,
+            "expiration_date": "2024-10-11T10:33:22Z",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 7,
+        "fields": {
+            "name": "Orthomol Tendo",
+            "slug": "orthomol-tendo",
+            "description": "Витаминный комплекс Ортомол Тендо обеспечивает здоровье сухожилий. Его компоненты гарантируют полноценное питание тканей сухожилий, повышают их прочность и эластичность, предотвращают развитие воспалений и ускоряют восстановление после травм. Ортомол Тендо – это, в первую очередь, витамины для спортсменов и людей, чья работа или образ жизни связаны с большими физическими нагрузками.\r\n\r\nОсновными составляющими комплекса Ортомол Тендо являются:\r\n\r\nсоединения марганца, необходимые для образования соединительной ткани, формирующей сухожилия;\r\nсоединения кальция, ответственные за прохождение нервных импульсов;\r\nсоединения меди, обеспечивающие укрепление пятки сухожилия, при помощи которой оно прикрепляется к кости;\r\nгидролизат коллагена, энзимы и омега-3 жирные кислоты, стимулирующие процессы регенерации и укрепления сухожилий при высоких нагрузках;\r\nхондроитинсульфат - участвует в восстановлении хрящевой ткани;\r\nглюкозаминсульфат - важный компонент хрящевой ткани, сухожилий, суставной жидкости.\r\nПримечание\r\n\r\nВитаминный комплекс Ортомол Тендо противопоказан лицам с нарушениями углеводного обмена, индивидуальной непереносимостью компонентов, а также беременным и кормящим женщинам.\r\nВитамины Orthomol производятся в соответствии с международными нормами качества:\r\n\r\nISO 22000\r\nHACCP\r\nGMP\r\nIFS\r\nBRC\r\nСертифицирован по стандарту ISO 22000\r\nИ не содержат ГМО, лактозу, глютен и диоксид титана.\r\nПеред применением проконсультируйтесь с врачом.",
+            "image": "goods_images/orthomol-tendo-main.png",
+            "price": "60.00",
+            "discount": 10,
+            "quantity": 9,
+            "model": "Tendo",
+            "brand": "Orthomol pharmazeutische Vertriebs GmbH",
+            "release_form": "tcp",
+            "course_duration": 30,
+            "expiration_date": "2024-10-11T10:34:18Z",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 8,
+        "fields": {
+            "name": "Orthomol Arthroplus",
+            "slug": "orthomol-arthroplus",
+            "description": "The Orthomol Arthro Plus vitamin complex is designed to protect against joint diseases such as arthritis, arthrosis, and others. Its components provide comprehensive nutrition to cartilage tissues, preventing their thinning and ensuring high joint mobility at any age. Orthomol Arthro Plus is primarily intended for athletes and individuals whose work or lifestyle demands high mobility.\r\n\r\nThe main components of the Orthomol Arthro Plus complex are:\r\n\r\n- Vitamins C, D, and K, as well as calcium, zinc, and magnesium compounds, which ensure bone strength;\r\n- Collagen, which serves as the building material for cartilage formation;\r\n- Glucosamine sulfate, chondroitin sulfate, and hyaluronic acid, which stimulate and regulate cartilage metabolism.\r\n\r\n**Note:**\r\n\r\nThe Orthomol Arthro Plus vitamin complex is contraindicated for minors, pregnant, and breastfeeding women.  \r\nIndividuals with metabolic disorders should consult a doctor before taking Orthomol Arthro Plus.\r\n\r\nOrthomol vitamins are produced in accordance with international quality standards:\r\n\r\n- ISO 22000\r\n- HACCP\r\n- GMP\r\n- IFS\r\n- BRC\r\n- Certified according to ISO 22000\r\n\r\nThey are free from GMOs, lactose, gluten, and titanium dioxide.  \r\nConsult your doctor before use.",
+            "image": "goods_images/orthomol-chondroplus-powder.png",
+            "price": "550.00",
+            "discount": 0,
+            "quantity": 50,
+            "model": "Arthroplus",
+            "brand": "Orthomol pharmazeutische Vertriebs GmbH",
+            "release_form": "ot",
+            "course_duration": 30,
+            "expiration_date": "2024-10-11T10:37:39Z",
+            "category": 9
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 9,
+        "fields": {
+            "name": "Orthomol Beauty",
+            "slug": "orthomol-beauty",
+            "description": "The Orthomol Beauty vitamin complex is designed to maintain the natural beauty of the face and body. Its components ensure an excellent appearance for your hair, nails, and skin.\r\n\r\nThe main components of the complex are:\r\n\r\n- Hyaluronic acid, which prevents skin dryness and accelerates its regeneration processes;\r\n- Biotin, which stimulates hair growth;\r\n- Collagen, which helps smooth the skin and adds shine to the hair;\r\n- Vitamins C and E, along with zinc and selenium compounds, which support the absorption of the above substances and provide antioxidant protection for skin cells.\r\n\r\nOrthomol Beauty is free from GMOs, gluten, lactose, allergens, and colorants. The collagen hydrolysate in the product is Halal certified.\r\n\r\n**Notes:**\r\n\r\nThe Orthomol Beauty vitamin complex is contraindicated for individuals with intolerance to any components and for pregnant or breastfeeding women.  \r\nThe Orthomol Beauty for Men complex is no longer supplied to Russia. Its composition and ingredients are identical to Orthomol Beauty, with only the packaging differing.  \r\n\r\nOrthomol vitamins are produced in accordance with international quality standards:\r\n\r\n- ISO 22000\r\n- HACCP\r\n- GMP\r\n- IFS\r\n- BRC\r\n- Certified according to ISO 22000\r\n\r\nThey are free from GMOs, lactose, gluten, and titanium dioxide.  \r\nConsult your doctor before use.",
+            "image": "goods_images/1752043383.jpg.png",
+            "price": "90.00",
+            "discount": 0,
+            "quantity": 90,
+            "model": "Beauty",
+            "brand": "Orthomol pharmazeutische Vertriebs GmbH",
+            "release_form": "ot",
+            "course_duration": 30,
+            "expiration_date": "2024-10-11T10:40:30Z",
+            "category": 1
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 10,
+        "fields": {
+            "name": "Orthomol Hair Intense",
+            "slug": "orthomol-hair-intense",
+            "description": "The Orthomol Hair Intense vitamin complex is designed to strengthen hair health. Its components provide intensive nourishment to hair follicles, giving hair strength, volume, and shine.\r\n\r\nOrthomol Hair Intense uniquely combines essential nutrients, B vitamins, amino acids, and KeraLiacin® (millet extract), which contains miliacin.\r\n\r\nThe main components of the complex are:\r\n\r\n- **Millet extract (KeraLiacin®)**: Nourishes hair from within, restores hair structure, increases follicle cell activity, accelerates hair growth, and gives hair strength and shine;\r\n- **L-cysteine**: Improves hair structure, supports collagen synthesis, and strengthens the hair shaft;\r\n- **L-methionine**: Prevents hair loss and brittleness, nourishes hair from within, making it strong and resilient;\r\n- **Biotin, zinc, and selenium**: Help keep hair strong, healthy, and beautiful;\r\n- **Copper**: Supports normal hair pigmentation;\r\n- **Thiamine, vitamin B6, vitamin B12, and pantothenic acid**: Support energy metabolism;\r\n- **Pantothenic acid**: Ensures the synthesis of vitamin D and several steroid hormones, which normalize the condition of skin, hair, and nails.\r\n\r\n**Note:** This is not a medicinal product.\r\n\r\n**Note:**\r\n\r\nThe Orthomol Hair Intense vitamin complex is contraindicated for individuals with an intolerance to any components. Pregnant and breastfeeding women should consult a doctor before use.\r\n\r\nOrthomol vitamins are produced in accordance with international quality standards:\r\n\r\n- ISO 22000\r\n- HACCP\r\n- GMP\r\n- IFS\r\n- BRC\r\n- Certified according to ISO 22000\r\n\r\nThey are free from GMOs, lactose, gluten, and titanium dioxide.  \r\nConsult your doctor before use.",
+            "image": "goods_images/1752043440.jpg.png",
+            "price": "190.00",
+            "discount": 10,
+            "quantity": 55,
+            "model": "Hair Intense",
+            "brand": "Orthomol pharmazeutische Vertriebs GmbH",
+            "release_form": "caps",
+            "course_duration": 30,
+            "expiration_date": "2024-10-11T10:42:49Z",
+            "category": 1
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 11,
+        "fields": {
+            "name": "Orthomol Femin",
+            "slug": "orthomol-femin",
+            "description": "The Orthomol Femin vitamin complex is designed to assist women during menopause. It contains phytoestrogens and a specially selected blend of vitamins and trace elements that help mitigate the issues caused by a decrease in the production of female hormones. Orthomol Femin has a general strengthening effect, normalizes the nervous system, and helps maintain the natural beauty of the skin, hair, and nails.\r\n\r\nThe main components of the complex are:\r\n\r\n- **Isoflavones from soy and lignans from flax seeds**: These are special phytoestrogens that, in combination with vitamin B6, help regulate hormonal activity;\r\n- **Vitamin C, biotin, selenium, and zinc compounds**: Ensure the normal condition of skin, nails, and hair;\r\n- **Vitamin D**: Prevents the development of osteoporosis;\r\n- **Fatty acids**: Necessary for the proper functioning of the brain and the nervous system as a whole;\r\n- **Coenzyme Q10**: Supports energy metabolism processes and helps strengthen the immune system.\r\n\r\n**Note:**\r\n\r\nThe Orthomol Femin vitamin complex is contraindicated for individuals with an intolerance to any components. \r\n\r\nOrthomol vitamins are produced in accordance with international quality standards:\r\n\r\n- ISO 22000\r\n- HACCP\r\n- GMP\r\n- IFS\r\n- BRC\r\n- Certified according to ISO 22000\r\n\r\nThey are free from GMOs, lactose, gluten, and titanium dioxide.  \r\nConsult your doctor before use.",
+            "image": "goods_images/femin_new.png",
+            "price": "280.00",
+            "discount": 60,
+            "quantity": 47,
+            "model": "Femin",
+            "brand": "Orthomol pharmazeutische Vertriebs GmbH",
+            "release_form": "caps",
+            "course_duration": 30,
+            "expiration_date": "2024-10-11T10:45:04Z",
+            "category": 14
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 12,
+        "fields": {
+            "name": "Orthomol Vital m",
+            "slug": "orthomol-vital-m",
+            "description": "The Orthomol Vital M vitamin complex is designed for men to combat stress and its consequences, such as fatigue, irritability, apathy, and sleep disorders. The complex contains vitamins and trace elements that normalize the functioning of the nervous system and stimulate metabolic processes, providing the body with energy and alleviating feelings of fatigue.\r\n\r\n**Key components of the complex include:**\r\n\r\n- **Substances that stimulate metabolic processes and normalize the nervous system**: Vitamins C, B1, B2, B6, and B12, pantothenic and nicotinic acids, biotin, along with magnesium, iodine, copper, and manganese compounds;\r\n- **Antioxidants**: Vitamins C, E, and B2, along with zinc, selenium, copper, and magnesium compounds;\r\n- **Omega-3 fatty acids**: Essential for the normal functioning of cell membranes.\r\n\r\n**Note:**\r\n\r\nThe Orthomol Vital M vitamin complex is contraindicated for individuals with an intolerance to any components.\r\n\r\nOrthomol vitamins are produced in accordance with international quality standards:\r\n\r\n- ISO 22000\r\n- HACCP\r\n- GMP\r\n- IFS\r\n- BRC\r\n- Certified according to ISO 22000\r\n\r\nThey are free from GMOs, lactose, gluten, and titanium dioxide.  \r\nConsult your doctor before use.",
+            "image": "goods_images/1477608589.jpg",
+            "price": "400.00",
+            "discount": 38,
+            "quantity": 28,
+            "model": "Vital m",
+            "brand": "Orthomol pharmazeutische Vertriebs GmbH",
+            "release_form": "tc",
+            "course_duration": 30,
+            "expiration_date": "2024-10-11T10:48:14Z",
+            "category": 10
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 13,
+        "fields": {
+            "name": "Orthomol Vital f",
+            "slug": "orthomol-vital-f",
+            "description": "The Orthomol Vital F vitamin complex is specifically designed for women. Its purpose is to combat stress and its consequences, such as fatigue, irritability, apathy, and sleep disorders. The complex contains vitamins and trace elements that stimulate metabolic processes, normalize the functioning of the nervous system, and support bone and dental health.\r\n\r\n**Key components of the complex include:**\r\n\r\n- **Substances that stimulate metabolic processes and normalize the nervous system**: Vitamins C, B1, B2, B6, and B12, pantothenic and nicotinic acids, biotin, along with magnesium, iodine, copper, and manganese compounds;\r\n- **Antioxidants**: Vitamins C, E, and B2, along with zinc, selenium, copper, and magnesium compounds;\r\n- **Calcium compounds**: Essential for maintaining bone and dental health.\r\n\r\n**Note:**\r\n\r\nThe Orthomol Vital F vitamin complex is contraindicated for individuals with an intolerance to any components.\r\n\r\nOrthomol vitamins are produced in accordance with international quality standards:\r\n\r\n- ISO 22000\r\n- HACCP\r\n- GMP\r\n- IFS\r\n- BRC\r\n- Certified according to ISO 22000\r\n\r\nThey are free from GMOs, lactose, gluten, and titanium dioxide.  \r\nConsult your doctor before use.",
+            "image": "",
+            "price": "500.00",
+            "discount": 40,
+            "quantity": 30,
+            "model": "Vital f",
+            "brand": "Orthomol pharmazeutische Vertriebs GmbH",
+            "release_form": "tc",
+            "course_duration": 30,
+            "expiration_date": "2024-10-11T10:50:33Z",
+            "category": 14
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 14,
+        "fields": {
+            "name": "Orthomol Mental",
+            "slug": "orthomol-junior-s-plus",
+            "description": "The Orthomol Mental vitamin complex is designed to stimulate brain activity, improve memory and concentration, and maintain high mental performance at any age. The components of the complex, including fatty acids, support the normal state of brain cells (neurons), while vitamins and minerals facilitate seamless communication between them.\r\n\r\n**Key components of Orthomol Mental include:**\r\n\r\n- **Omega-3 fatty acids**: Serve as the primary \"building material\" for neurons.\r\n- **Pantothenic acid and coenzyme Q10**: Stimulate biochemical reactions that supply energy to neurons.\r\n- **Vitamins B1 (thiamine), B2 (riboflavin), B6, B12, biotin, niacin, vitamin C**, and compounds of **zinc and magnesium**: Ensure impulse transmission between neurons and support the normal functioning of the brain and nervous system as a whole.\r\n- **Vitamins C and E, Ginkgo Biloba extract, carotenoids, citrus flavonoids, selenium, and coenzyme Q10**: Provide protection against oxidative stress.\r\n\r\n**Note:**\r\n\r\nThe Orthomol Mental vitamin complex is contraindicated for individuals with carbohydrate metabolism disorders, those with an intolerance to any components, and for pregnant and breastfeeding women.\r\n\r\nOrthomol vitamins are produced in accordance with international quality standards:\r\n\r\n- ISO 22000\r\n- HACCP\r\n- GMP\r\n- IFS\r\n- BRC\r\n- Certified according to ISO 22000\r\n\r\nThey are free from GMOs, lactose, gluten, and titanium dioxide.  \r\nConsult your doctor before use.",
+            "image": "goods_images/orthomol-mental-main.png",
+            "price": "100.00",
+            "discount": 0,
+            "quantity": 52,
+            "model": "Mental",
+            "brand": "Orthomol pharmazeutische Vertriebs GmbH",
+            "release_form": "tcp",
+            "course_duration": 30,
+            "expiration_date": "2024-10-11T11:01:24Z",
+            "category": 2
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 15,
+        "fields": {
+            "name": "Orthomol AMD Extra",
+            "slug": "orthomol-amd-extra",
+            "description": "The Orthomol AMD Extra vitamin complex is a dietary supplement with a balanced combination of specially dosed micronutrients to support normal vision.\r\n\r\nThe components of the complex inhibit degenerative processes in the retina, providing antioxidant protection and preventing the formation of polymer structures that are impermeable to incoming light.\r\n\r\n**Key components of the Orthomol AMD Extra complex include:**\r\n\r\n- **Vitamins C and E, along with copper and zinc compounds**: Provide antioxidant protection for retinal cells.\r\n- **Phytonutrients lutein and zeaxanthin**: Filter blue light, offer antioxidant protection for cells, and normalize the overall condition of the retina.\r\n\r\n**Note:**\r\n\r\nThe Orthomol AMD Extra vitamin complex is contraindicated for individuals with an intolerance to any components, as well as for pregnant and breastfeeding women. It does not contain titanium dioxide. The EU banned the use of titanium dioxide in food products, including dietary supplements, in August 2022.\r\n\r\nOrthomol vitamins are produced in accordance with international quality standards:\r\n\r\n- ISO 22000\r\n- HACCP\r\n- GMP\r\n- IFS\r\n- BRC\r\n- Certified according to ISO 22000\r\n\r\nThey are free from GMOs, lactose, gluten, and titanium dioxide.  \r\nConsult your doctor before use.",
+            "image": "goods_images/2307520940.jpg.png",
+            "price": "420.00",
+            "discount": 30,
+            "quantity": 50,
+            "model": "AMD Extra",
+            "brand": "Orthomol pharmazeutische Vertriebs GmbH",
+            "release_form": "caps",
+            "course_duration": 120,
+            "expiration_date": "2024-10-11T11:04:56Z",
+            "category": 5
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 16,
+        "fields": {
+            "name": "Orthomol Sport",
+            "slug": "orthomol-sport",
+            "description": "The Orthomol Sport vitamin complex is designed for athletes and individuals engaged in high physical activity. The components of the complex stimulate metabolic processes, ensuring excellent performance, reducing the risk of injuries, and promoting overall well-being even during high-intensity workouts.\r\n\r\n**Key components of the Orthomol Sport vitamin complex with taurine include:**\r\n\r\n- **Magnesium and calcium compounds**: Support normal muscle function.\r\n- **Iron compounds**: Form hemoglobin, which is essential for oxygen transport in the body.\r\n- **Antioxidants**: Such as vitamin C, along with selenium and zinc compounds, which support immune system performance, especially during and after workouts.\r\n- **B vitamins, along with calcium, magnesium, iron, iodine, and copper**: Stimulate energy generation processes.\r\n- **L-carnitine and coenzyme Q10**: Enhance energy production.\r\n- **Taurine**: Stimulates energy metabolism.\r\n\r\n**Note:**\r\n\r\nThe Orthomol Sport vitamin complex is contraindicated for individuals with an intolerance to any components, as well as for pregnant and breastfeeding women. Those with thyroid diseases and those taking iodine supplements should consult an endocrinologist before starting Orthomol Sport.\r\n\r\nOrthomol vitamins are produced in accordance with international quality standards:\r\n\r\n- ISO 22000\r\n- HACCP\r\n- GMP\r\n- IFS\r\n- BRC\r\n- Certified according to ISO 22000\r\n\r\nThey are free from GMOs, lactose, gluten, and titanium dioxide.  \r\nConsult your doctor before use.",
+            "image": "",
+            "price": "300.00",
+            "discount": 0,
+            "quantity": 80,
+            "model": "Sport",
+            "brand": "Orthomol pharmazeutische Vertriebs GmbH",
+            "release_form": "ot",
+            "course_duration": 30,
+            "expiration_date": "2024-10-11T11:22:24Z",
+            "category": 13
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 17,
+        "fields": {
+            "name": "Orthomol Cardio",
+            "slug": "orthomol-cardio",
+            "description": "The Orthomol Cardio vitamin complex is designed to support cardiovascular health. It contains vitamins and minerals that promote the efficiency of the heart muscle and ensure the excellent condition of blood vessels, from veins and arteries to the smallest capillaries.\r\n\r\n**Key components of Orthomol Cardio include:**\r\n\r\n- **Vitamin C and B vitamins, along with potassium and magnesium compounds**: Facilitate the transmission of signals from receptors on the vessel walls and from the nervous centers of the brain and spinal cord.\r\n- **Energy metabolism stimulators**: Such as coenzyme Q10, pantothenic acid, niacin, and compounds of iodine, magnesium, copper, and manganese.\r\n- **Antioxidants**: Including vitamins E and B2, as well as zinc, selenium, copper, and magnesium compounds.\r\n- **Omega-3 fatty acids**: Help reduce blood cholesterol levels and prevent its deposition on vessel walls.\r\n- **Folic acid and B vitamins**: Prevent the destruction of blood vessel walls.\r\n\r\n**Note:**\r\n\r\nThe Orthomol Cardio vitamin complex is contraindicated for individuals with hemorrhagic syndrome, those with an intolerance to any components, and pregnant and breastfeeding women. Individuals with thyroid diseases who are taking iodine supplements should consult an endocrinologist before starting Orthomol Cardio.\r\n\r\nOrthomol vitamins are produced in accordance with international quality standards:\r\n\r\n- ISO 22000\r\n- HACCP\r\n- GMP\r\n- IFS\r\n- BRC\r\n- Certified according to ISO 22000\r\n\r\nThey are free from GMOs, lactose, gluten, and titanium dioxide.  \r\nConsult your doctor before use.",
+            "image": "goods_images/orthomol-cardio-main.png",
+            "price": "410.00",
+            "discount": 0,
+            "quantity": 3,
+            "model": "Cardio",
+            "brand": "Orthomol pharmazeutische Vertriebs GmbH",
+            "release_form": "tcp",
+            "course_duration": 30,
+            "expiration_date": "2024-10-11T11:23:42Z",
+            "category": 7
+        }
+    },
+    {
+        "model": "goods.products",
+        "pk": 18,
+        "fields": {
+            "name": "Orthomol Pro 6",
+            "slug": "orthomol-pro-6",
+            "description": "The Orthomol Pro 6 dietary supplement is designed to restore intestinal microflora affected by prolonged antibiotic use.\r\n\r\n**Key components of the supplement include:**\r\n\r\n- **Vitamin C**: Supports the immune system and has a general strengthening effect.\r\n- **Bifidobacteria, Lactobacilli, and Streptococcus thermophilus**: Essential components of human gut microflora necessary for proper digestion and immune support.\r\n\r\nThanks to LAB2PRO protection, Orthomol Pro 6 does not need to be refrigerated, as the microorganisms are resistant to higher temperatures. Additionally, LAB2PRO protects bifidobacteria and lactobacilli from the acidic environment of the stomach and bile acids during their passage through the gastrointestinal tract. This ensures that the bacteria reach the intestines viable and active for reproduction, enhancing their positive effects on the body.\r\n\r\nOrthomol vitamins are produced in accordance with international quality standards:\r\n\r\n- ISO 22000\r\n- HACCP\r\n- GMP\r\n- IFS\r\n- BRC\r\n- Certified according to ISO 22000\r\n\r\nThey are free from GMOs, lactose, gluten, and titanium dioxide.  \r\nConsult your doctor before use.",
+            "image": "goods_images/4437066357_lVDWmgR.png",
+            "price": "55.00",
+            "discount": 0,
+            "quantity": 3,
+            "model": "Pro 6",
+            "brand": "Orthomol pharmazeutische Vertriebs GmbH",
+            "release_form": "caps",
+            "course_duration": 30,
+            "expiration_date": "2024-10-11T11:26:45Z",
+            "category": 6
+        }
+    }
+]
